@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <title>Nicole's Portfolio</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <section id="home" class="home-section">
+    <div class="home-content">
+      <div class="home-text">
+        <h1 class="typing-text">Hi, I'm Nicole</h1>
+        <h2 class="typing-text">a Frontend Developer</h2>
+        <p> A passionate web developer who builds engaging and responsive websites and applications.</p>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+      <div class="home-image">
+        <img src="images/me.jpg" alt="Nicole's Photo" class="profile-pic" />
+      </div>
+    </div>
+  </section>
+  
+  
+  <section id="about">
+    <div class="content">
+      <div class="profile-pic-container">
+        <img src="images/me.jpg" alt="Nicole's Photo" class="profile-pic" />
+      </div>      
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Nicole! I'm a web developer with experience in various technologies
+        including Java, PHP, C#, and HTML. I love creating user-friendly,
+        responsive websites and applications.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="content">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill-container">
+          <label for="php">PHP</label>
+          <div class="progress-bar" id="php-bar">
+            <div class="progress php"></div>
+          </div>
+          <span class="percentage">70%</span>
+        </div>
+
+        <div class="skill-container">
+          <label for="html">HTML</label>
+          <div class="progress-bar" id="html-bar">
+            <div class="progress html"></div>
+          </div>
+          <span class="percentage">80%</span>
+        </div>
+
+        <div class="skill-container">
+          <label for="csharp">C#</label>
+          <div class="progress-bar" id="csharp-bar">
+            <div class="progress csharp"></div>
+          </div>
+          <span class="percentage">60%</span>
+        </div>
+
+        <div class="skill-container">
+          <label for="cplus">C++</label>
+          <div class="progress-bar" id="cplus-bar">
+            <div class="progress cplus"></div>
+          </div>
+          <span class="percentage">20%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="content">
+      <h2>Projects</h2>
+
+      <div class="project-card">
+        <h3>Flight Booking System</h3>
+        <p>
+          A web application that allows users to search for and book flights. The
+          system uses PHP and MySQL for backend functionality and HTML/CSS for
+          frontend design.
+        </p>
+        <p><strong>Technologies Used:</strong> PHP, MySQL, HTML, CSS, JavaScript</p>
+        <a href="#" class="project-link" data-image="images/airline.png">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Watch Catalog</h3>
+        <p>
+          A web application that allows users to browse and purchase a variety of watches. The system uses PHP and MySQL for backend functionality and HTML/CSS for frontend design.
+        </p>
+        <p><strong>Technologies Used:</strong> PHP, MySQL, HTML, CSS, JavaScript</p>
+        <a href="#" class="project-link" data-image="images/watch.png">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Appointment Management System</h3>
+        <p>
+          This is an appointment management system that allows users to create, update, and cancel appointments, with the option to provide reasons for cancellations. It is built using PHP, MySQL, and JavaScript for seamless functionality.
+        </p>
+        <p><strong>Technologies Used:</strong> PHP, MySQL, JavaScript, HTML, CSS</p>
+        <a href="#" class="project-link" data-image="images/appointment.png">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Merceleona's Room Rental</h3>
+        <p>
+          This is a room rental management system that allows users to browse available rooms, make bookings, and manage reservations. It is built with PHP, MySQL, and JavaScript for efficient backend functionality and user-friendly frontend design.
+        </p>        
+        <p><strong>Technologies Used:</strong> PHP, MySQL, JavaScript, HTML, CSS</p>
+        <a href="#" class="project-link" data-image="images/rental.png">View Project</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="content">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out through any of the platforms below!</p>
+      <ul>
+        <li><i class="fas fa-envelope"></i> <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"  target="_blank" >nicolepaduga31@gmail.com</a></li>
+        <li><i class="fas fa-phone-alt"></i> <a href="tel:+123456789">09052685769</a></li>
+        <li><i class="fab fa-facebook"></i> <a href="https://web.facebook.com/nicole.paduga31/" target="_blank">Nicole Paduga</a></li>
+      </ul>
+    </div>
+  </section>
+  
+  
+
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-image" />
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Nicole's Portfolio </a></p>
+  </footer>
+  
+  <script src="index.js"></script>
+  
+</body>
+</html>
