@@ -586,33 +586,36 @@ footer p {
       padding: 8px 16px;
       font-size: 1rem;
     }
+  }@media (max-width: 480px) {
+  .home-content h1 {
+    font-size: 1.8rem;
+    margin-top: 20px; /* Add spacing between the profile pic and h1 */
   }
-  
-  @media (max-width: 480px) {
-    .home-content h1 {
-      font-size: 1.8rem;
-    }
-  
-    .home-content h2 {
-      font-size: 1.6rem;
-    }
-  
-    .home-content p {
-      font-size: 0.9rem;
-      max-width: 100%;
-    }
-  
-    .profile-pic {
-      width: 150px;
-      height: 150px;
-    }
-  
-    .btn {
-      padding: 6px 12px;
-      font-size: 0.9rem;
-    }
+
+  .home-content h2 {
+    font-size: 1.6rem;
   }
-  
+
+  .home-content p {
+    font-size: 0.9rem;
+    max-width: 100%;
+  }
+
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px; /* Space between profile pic and h1 */
+    display: block; /* Ensures it behaves like a block-level element */
+    margin-left: auto;
+    margin-right: auto; /* Center profile picture */
+  }
+
+  .btn {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
+}
+
   
 /* Contact Section */
 #contact {
